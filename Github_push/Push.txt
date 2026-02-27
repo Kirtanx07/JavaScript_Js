@@ -7,3 +7,20 @@ git add.   (. for all)
 #Commit
 
 git commit -am "initial commit" 
+
+#copy url for puch repo
+
+git remote add origin #url
+
+#check 
+
+git remote -v
+
+#it will display fetch and puch 
+
+git push origin master 
+
+#The command git push origin 
+master is used to upload commits from your local 
+master branch to the 
+master branch of the remote repository named origin
