@@ -1,0 +1,28 @@
+/* Default Light Mode */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Dark Mode Class */
+.dark {
+    background-color: #111;
+    color: #eee;
+}
+
+.height {
+
+    color: crimson;  
+}

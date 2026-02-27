@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events Demo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>JavaScript Events — Learn by Examples</h1>
+
+    <!-- ---------------- INLINE EVENTS ---------------- -->
+
+    <h2>1 Inline Events</h2>
+
+    <button onclick="inlineClick()">Inline Click</button>
+    <div onmouseover="inlineHover()" class="box">Hover over me</div>
+
+
+    <!-- ---------------- JS EVENT LISTENERS ---------------- -->
+
+    <h2>2️ Events Using addEventListener()</h2>
+
+    <button id="btn">Click Me (JS Event Listener)</button>
+    <button id="dbl">Double Click Me</button>
+
+    <div id="hoverBox" class="box">
+        Move mouse inside this box
+    </div>
+
+    <!-- Keyboard Event -->
+    <input type="text" id="keyInput" placeholder="Type something..." />
+
+
+    <!-- Display event details -->
+    <p id="eventInfo">Event details will appear here...</p>
+
+
+    <script src="events.js"></script>
+</body>
+</html>

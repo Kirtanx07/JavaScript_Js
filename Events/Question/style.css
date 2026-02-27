@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.box {
+    width: 250px;
+    height: 120px;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 2px solid #aaa;
+}

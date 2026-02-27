@@ -1,0 +1,9 @@
+git init
+
+#For selecting all files!
+
+git add.   (. for all)
+
+#Commit
+
+git commit -am "initial commit" 

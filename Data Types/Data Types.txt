@@ -1,0 +1,74 @@
+JavaScript Data Types
+
+PRIMITIVE DATA TYPES (7 Types - Fixed)
+
+Number
+Example:
+let age = 20;
+let price = 199.99;
+
+String
+Example:
+let name = "Kirtan";
+let msg = 'Hello';
+let greet = Hi, ${name};
+
+Boolean
+Example:
+let isLoggedIn = true;
+let isStudent = false;
+
+Undefined
+(Declared but not assigned)
+let x;
+
+Null
+(Intentional empty value)
+let y = null;
+
+BigInt
+(Numbers larger than normal range)
+let big = 12345678901234567890123n;
+
+Symbol
+(Unique identifiers)
+let key = Symbol("id");
+
+Summary of Primitive Types:
+
+Number -> numeric values
+String -> text values
+Boolean -> true/false
+Undefined -> default value of unassigned variable
+Null -> empty value
+BigInt -> very large integer
+Symbol -> unique ID
+
+NON-PRIMITIVE DATA TYPES
+
+Objects (Collection of key-value pairs)
+Example:
+let person = {
+name: "Kirtan",
+age: 18,
+isStudent: true
+};
+
+Accessing object values:
+person.name
+person["age"]
+
+Arrays (Ordered list of values)
+Example:
+let numbers = [10, 20, 30];
+
+Functions (Callable objects)
+Example:
+function greet() {
+console.log("Hello!");
+}
+
+Primitive vs Non-Primitive
+
+Primitive values -> stored directly, immutable
+Non-Primitive -> stored by reference, mutable (objects, arrays, functions)

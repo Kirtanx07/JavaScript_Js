@@ -1,0 +1,36 @@
+//Create a function 
+// using the "function" keyword 
+// that takes a string as an argumnet 
+// & returns the number of 
+// vowels in the sting 
+
+function vow_count(string){
+    let count=0;
+    let vovel="aeoiuAEIOU"
+    for(let i=0; i< string.length; i++)
+        if (vovel.includes(string[i])) {
+            count+=1
+        }
+    if (count === 0) {
+        console.log("No vowels in the string!");
+    } else {
+        console.log(`Total vowels: ${count}`);
+    }
+}
+vow_count("aeoiukcjkndqudijweioqjieieoqiwoepqi");
+
+//Using arrow method 
+
+const countvow=(string) => {
+    let count=0;
+    let vovel="aeoiuAEIOU"
+    for(let i=0; i< string.length; i++)
+        if (vovel.includes(string[i])) {
+            count+=1
+        }
+    if (count === 0) {
+        console.log("No vowels in the string!");
+    } else {
+        console.log(`Total vowels: ${count}`);
+    }
+}
